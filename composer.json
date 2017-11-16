@@ -1,0 +1,20 @@
+{
+    "name": "eddycjy/yii2-iconpicker",
+    "description": "Yii2 widget for iconpicker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "EDDYCJY",
+            "email": "313687982@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iconpicker\\": "src/"
+        }
+    }
+}
