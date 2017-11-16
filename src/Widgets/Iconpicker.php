@@ -33,7 +33,7 @@ class Iconpicker extends InputWidget
 		'footer'  				=> true,
 		'header'  				=> true,
 		'icon'	  				=> '',
-		'iconset' 				=> 'glyphicon',
+		'iconset' 				=> 'fontawesome',
 		'labelHeader' 			=> '{0} / {1}',
 		'labelFooter' 			=> '{0} - {1} of {2}',
 		'placement' 			=> 'bottom',
