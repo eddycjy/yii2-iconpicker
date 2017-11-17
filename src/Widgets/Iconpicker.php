@@ -65,7 +65,7 @@ class Iconpicker extends InputWidget
 		}
 
 		if($this->hasModel()) {
-			$this->clientOptions['icon'] = $this->model->{$this->attribute};
+			$this->clientOptions['icon'] = ! empty($this->model->{$this->attribute}) ? $this->model->{$this->attribute} : '';
 		}
 
 		parent::init();
